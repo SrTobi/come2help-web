@@ -21,6 +21,10 @@
 </head>
 <body>
 
+<!-- Cordova-Verweis, wird Ihrer App beim Erstellen hinzugefügt. -->
+<script src="cordova.js"></script>
+<script src="js/platformOverrides.js"></script>
+
 <div class="container">
     <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -39,5 +43,8 @@
 
     <div ng-view></div>
 </div>
+
+<!-- Start app -->
+<script src="scripts/index.js"></script>
 </body>
 </html>
