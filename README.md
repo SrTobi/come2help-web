@@ -40,3 +40,21 @@ LICENSE file.
   <pre>python nocacheserver.py</pre>
   or
   <pre>python3 nocacheserver3.py</pre>
+
+## Setup Cordova
+
+1. Follow the steps above
+
+2. Install Cordova
+<pre>npm install -g Cordova</pre>
+
+3. Install the desired app dev kit (i.e. windows, android, ios)
+
+4. Add your platform with Cordova
+<pre>cordova platform add windows</pre>
+<pre>cordova platform add android</pre>
+
+5. Build the app
+<pre>cordova build</pre>
+
+6. The apps can be found in the platform directories
